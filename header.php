@@ -72,26 +72,32 @@
                                 </div> -->
     
                             </div>
-                            <div>
-                                <!-- LOGO -->
-                                <div class="navbar-brand-box">
-                                    <a href="index.html" class="logo logo-dark">
-                                        <span class="logo-sm">
-                                            <img src="assets/images/logo-sm.png" alt="" height="20">
-                                        </span>
-                                        <span class="logo-lg">
-                                            <img src="assets/images/logo-dark.png" alt="" height="17">
-                                        </span>
-                                    </a>
-    
-                                    <a href="index.html" class="logo logo-light">
-                                        <span class="logo-sm">
-                                            <img src="assets/images/logo-sm.png" alt="" height="20">
-                                        </span>
-                                        <span class="logo-lg">
-                                            <img src="assets/images/logo-light.png" alt="" height="19">
-                                        </span>
-                                    </a>
+                            <!-- LOGO -->
+                            <div class="navbar-brand-box">
+                                <a href="index.html" class="logo logo-dark" style="margin-left: 65px;">
+                                    <span class="logo-sm">
+                                        <img src="../assets/images/logo-sm.png" alt="" height="58"
+                                        style="border-radius: 10%;">
+                                    </span>
+                                    <span class="logo-lg">
+                                        <img src="../assets/images/logo-dark.png" alt="" height="55"
+                                        style="border-radius: 10%;">>
+                                    </span>
+                                </a>
+
+                         
+                                <a href="index.html" class="logo logo-light" style="margin-left: 65px;">
+                                    <span class="logo-sm">
+                                        <img src="../assets/images/LogoEX.png" alt="" height="60"
+                                            style="border-radius: 50%;">
+                                    </span>
+                                    <span class="logo-lg">
+                                        <img src="../assets/images/LogoEX.png" alt="" height="57"
+                                            style="border-radius: 10%;">
+                                    </span>
+                                </a>
+
+                            </div>
                                 </div>
     
                                 <button type="button" class="btn btn-sm px-3 font-size-16 header-item toggle-btn waves-effect"

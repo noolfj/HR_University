@@ -90,7 +90,7 @@
                         <div>
 
                             <div class="navbar-brand-box">
-                                <a href="index.html" class="logo logo-dark" style="margin-left: 65px;">
+                                <a href="index.php" class="logo logo-dark" style="margin-left: 65px;">
                                     <span class="logo-sm">
                                         <img src="../assets/images/logo-sm.png" alt="" height="58"
                                         style="border-radius: 10%;">
@@ -102,7 +102,7 @@
                                 </a>
 
                          
-                                <a href="index.html" class="logo logo-light" style="margin-left: 65px;">
+                                <a href="index.php" class="logo logo-light" style="margin-left: 65px;">
                                     <span class="logo-sm">
                                         <img src="../assets/images/LogoEX.png" alt="" height="60"
                                             style="border-radius: 50%;">
