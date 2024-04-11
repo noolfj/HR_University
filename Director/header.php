@@ -34,7 +34,6 @@
 <body data-layout="detached" data-topbar="colored">
 
 
-    <!-- <body data-layout="horizontal" data-topbar="dark"> -->
 
     <div class="container-fluid">
         <!-- Begin page -->
@@ -62,26 +61,12 @@
                                     <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
                                 </button>
                                 <div class="dropdown-menu dropdown-menu-end">
-                                    <!-- item-->
-                                    <!-- <a class="dropdown-item" href="profile.php"><i
-                                            class="bx bx-user font-size-16 align-middle me-1"></i>
-                                        Профиль</a>
-                                    <a class="dropdown-item d-block" href="setting.html"><span
-                                            class="badge bg-success float-end"></span><i
-                                            class="bx bx-wrench font-size-16 align-middle me-1"></i> Настройка</a>
-                                    <div class="dropdown-divider"></div> -->
+  
                                     <a class="dropdown-item text-danger" href="login.php"><i
                                             class="bx bx-power-off font-size-16 align-middle me-1 text-danger"></i>
                                         Выйти</a>
                                 </div>
                             </div>
-
-                            <!-- <div class="dropdown d-inline-block">
-                                    <button  type="button" class="btn header-item noti-icon right-bar-toggle waves-effect" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                                        <i class="mdi mdi-settings-outline"></i>
-                                    </button>
-                                </div> -->
-
                         </div>
 
                         <!-- LOGO -->
@@ -167,20 +152,12 @@
                                 </ul>
                             </li>
 
-
                             <li>
                                 <a href="plan.php" class="waves-effect">
                                     <i class="mdi mdi-airplay"></i>
                                     <span>План</span>
                                 </a>
                             </li>
-                            <!-- 
-                            <li>
-                                <a href="login.php" class="waves-effect">
-                                    <i class="bx bx-log-out"></i>
-                                    <span>Выйти</span>
-                                </a>
-                            </li> -->
 
                     </div>
                     <!-- Sidebar -->

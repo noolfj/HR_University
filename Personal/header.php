@@ -36,8 +36,6 @@
 
 
 
-    <!-- <body data-layout="horizontal" data-topbar="dark"> -->
-
     <div class="container-fluid">
         <!-- Begin page -->
         <div id="layout-wrapper">
@@ -64,25 +62,14 @@
                                     <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
                                 </button>
                                 <div class="dropdown-menu dropdown-menu-end">
-                                    <!-- item-->
-                                    <!-- <a class="dropdown-item" href="profile.php"><i
-                                            class="bx bx-user font-size-16 align-middle me-1"></i>
-                                        Профиль</a>
-                                    <a class="dropdown-item d-block" href="setting.html"><span
-                                            class="badge bg-success float-end"></span><i
-                                            class="bx bx-wrench font-size-16 align-middle me-1"></i> Настройка</a>
-                                    <div class="dropdown-divider"></div> -->
+
                                     <a class="dropdown-item text-danger" href="login.php"><i
                                             class="bx bx-power-off font-size-16 align-middle me-1 text-danger"></i>
                                         Выйти</a>
                                 </div>
                             </div>
 
-                            <!-- <div class="dropdown d-inline-block">
-                                    <button  type="button" class="btn header-item noti-icon right-bar-toggle waves-effect" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                                        <i class="mdi mdi-settings-outline"></i>
-                                    </button>
-                                </div> -->
+
 
                         </div>
 
@@ -93,15 +80,15 @@
                                 <a href="index.php" class="logo logo-dark" style="margin-left: 65px;">
                                     <span class="logo-sm">
                                         <img src="../assets/images/logo-sm.png" alt="" height="58"
-                                        style="border-radius: 10%;">
+                                            style="border-radius: 10%;">
                                     </span>
                                     <span class="logo-lg">
                                         <img src="../assets/images/logo-dark.png" alt="" height="55"
-                                        style="border-radius: 10%;">>
+                                            style="border-radius: 10%;">>
                                     </span>
                                 </a>
 
-                         
+
                                 <a href="index.php" class="logo logo-light" style="margin-left: 65px;">
                                     <span class="logo-sm">
                                         <img src="../assets/images/LogoEX.png" alt="" height="60"
@@ -121,7 +108,7 @@
                                 <i class="fa fa-fw fa-bars"></i>
                             </button>
                         </div>
-                    </div> 
+                    </div>
             </header> <!-- ========== Left Sidebar Start ========== -->
             <div class="vertical-menu">
 
@@ -166,7 +153,7 @@
                             </li>
 
                             <li>
-                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <a href="javascript: void(0);" class="has-arrow waves-effect">
                                     <i class="mdi mdi-airplay"></i>
                                     <span>План</span>
                                 </a>
