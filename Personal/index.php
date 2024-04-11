@@ -22,7 +22,7 @@ require_once "header.php";
                     <div class="card-body">
                         <div class="table-responsive">
                             <table class="table table-dark mb-0">
-                                <h3>Рейтинг сотрудников</h3>
+                                <h3>Ваш рейтинг</h3>
 
                                 <div class="table-responsive">
                                     <table class="table mb-0">
@@ -37,7 +37,7 @@ require_once "header.php";
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="align-middle">1</td>
+                                                <td class="align-middle">7</td>
                                                 <td class="align-middle">
                                                     <div class="d-flex align-items-center">
                                                         <div class="me-4">
@@ -54,41 +54,6 @@ require_once "header.php";
                                                 <td class="align-middle">33</td>
                                             </tr>
 
-                                            <tr>
-                                                <td class="align-middle">2</td>
-                                                <td class="align-middle">
-                                                    <div class="d-flex align-items-center">
-                                                        <div class="me-4">
-                                                            <img src="../assets/images/users/avatar-3.jpg" alt=""
-                                                                class="avatar-sm rounded-circle">
-                                                        </div>
-                                                        <div>
-                                                            <h5 class="font-size-16 mb-1">Камолов Дилшод</h5>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="align-middle">Кандидат наук</td>
-                                                <td class="align-middle">12/40</td>
-                                                <td class="align-middle">8</td>
-                                            </tr>
-
-                                            <tr>
-                                                <td class="align-middle">3</td>
-                                                <td class="align-middle">
-                                                    <div class="d-flex align-items-center">
-                                                        <div class="me-4">
-                                                            <img src="../assets/images/users/avatar-4.jpg" alt=""
-                                                                class="avatar-sm rounded-circle">
-                                                        </div>
-                                                        <div>
-                                                            <h5 class="font-size-16 mb-1">Ахмадова Тахмина</h5>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td class="align-middle">-------------</td>
-                                                <td class="align-middle">35/40</td>
-                                                <td class="align-middle">46</td>
-                                            </tr>
 
                                         </tbody>
                                     </table>

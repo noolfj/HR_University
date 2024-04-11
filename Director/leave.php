@@ -19,7 +19,7 @@ require_once "header.php";
             <div class="col-lg-12">
                 <div class="card">
                     <div class="card-body">
-                    <h3>Таблица заявок</h3>
+                        <h3>Таблица заявок</h3>
 
                         <div class="table-responsive">
                             <table class="table mb-0">
@@ -31,7 +31,9 @@ require_once "header.php";
                                         <th>Причина</th>
                                         <th>Дата начало</th>
                                         <th>Дата окончания</th>
-                                        <th class="text-center">Статус   <i class="bx bx-loader bx-spin font-size-16 align-middle me-2"></i></th>
+                                        <th>Комментария</th>
+                                        <th class="text-center">Статус<i
+                                                class="bx bx-loader bx-spin font-size-16 align-middle me-2"></i></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -41,38 +43,134 @@ require_once "header.php";
                                         <td>Командировка</td>
                                         <td>12.22.22</td>
                                         <td>12.33.22</td>
-                                        <td>    <button type="button" class="btn btn-success waves-effect waves-light">
-                                        <i class="bx bx-check-double font-size-16 align-middle me-2"></i> Принять
-                                    </button>
-                                    <button type="button" class="btn btn-danger waves-effect waves-light">
-                                        <i class="bx bx-block font-size-16 align-middle me-2"></i> Отклонить
-                                    </button></td>
+                                        <td>
+                                            <button type="button" class="btn btn-primary  align-middle me-2"
+                                                data-bs-toggle="modal" data-bs-target="#myModal1">
+                                                Посмотреть
+                                            </button>
+                                        </td>
+
+                                        <td> <button type="button" class="btn btn-success waves-effect waves-light">
+                                                <i class="bx bx-check-double font-size-16 align-middle me-2"></i>
+                                                Принять
+                                            </button>
+                                            <button type="button" class="btn btn-danger waves-effect waves-light">
+                                                <i class="bx bx-block font-size-16 align-middle me-2"></i>
+                                                Отклонить
+                                            </button>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">1</th>
+                                        <th scope="row">2</th>
                                         <td>Ааааааааа Бббббббббб</td>
                                         <td>Командировка</td>
                                         <td>12.22.22</td>
                                         <td>12.33.22</td>
-                                        <td>    <button type="button" class="btn btn-success waves-effect waves-light">
-                                        <i class="bx bx-check-double font-size-16 align-middle me-2"></i> Принять
-                                    </button>
-                                    <button type="button" class="btn btn-danger waves-effect waves-light">
-                                        <i class="bx bx-block font-size-16 align-middle me-2"></i> Отклонить
-                                    </button></td>
+                                        <td>
+                                            <button type="button" class="btn btn-primary  align-middle me-2"
+                                                data-bs-toggle="modal" data-bs-target="#myModal2">
+                                                Посмотреть
+                                            </button>
+                                        </td>
+                                        <td> <button type="button" class="btn btn-success waves-effect waves-light">
+                                                <i class="bx bx-check-double font-size-16 align-middle me-2"></i>
+                                                Принять
+                                            </button>
+                                            <button type="button" class="btn btn-danger waves-effect waves-light">
+                                                <i class="bx bx-block font-size-16 align-middle me-2"></i>
+                                                Отклонить
+                                            </button>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">1</th>
+                                        <th scope="row">3</th>
                                         <td>Ааааааааа Бббббббббб</td>
                                         <td>Командировка</td>
                                         <td>12.22.22</td>
                                         <td>12.33.22</td>
-                                        <td>    <button type="button" class="btn btn-success waves-effect waves-light">
-                                        <i class="bx bx-check-double font-size-16 align-middle me-2"></i> Принять
-                                    </button>
-                                    <button type="button" class="btn btn-danger waves-effect waves-light">
-                                        <i class="bx bx-block font-size-16 align-middle me-2"></i> Отклонить
-                                    </button></td>
+                                        <td>
+                                            <button type="button" class="btn btn-primary  align-middle me-2"
+                                                data-bs-toggle="modal" data-bs-target="#myModal3">
+                                                Посмотреть
+                                            </button>
+                                        </td>
+                                        <td> <button type="button" class="btn btn-success waves-effect waves-light">
+                                                <i class="bx bx-check-double font-size-16 align-middle me-2"></i>
+                                                Принять
+                                            </button>
+                                            <button type="button" class="btn btn-danger waves-effect waves-light">
+                                                <i class="bx bx-block font-size-16 align-middle me-2"></i>
+                                                Отклонить
+                                            </button>
+                                        </td>
+
+                                        <div class="modal fade" id="myModal1" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel1">
+                                                            Диалоговое окно 1</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        Здесь можете разместить текст или контент для первой
+                                                        кнопки.
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Закрыть</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal fade" id="myModal2" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel2">
+                                                            Диалоговое окно 2</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        Здесь можете разместить текст или контент для второй
+                                                        кнопки.
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Закрыть</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal fade" id="myModal3" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel2">
+                                                            Диалоговое окно 3</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        Здесь можете разместить текст или контент для второй
+                                                        кнопки.
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Закрыть</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
                                     </tr>
 
                                 </tbody>
@@ -81,7 +179,7 @@ require_once "header.php";
 
                     </div>
                 </div>
-                </div>
+            </div>
 
 
 

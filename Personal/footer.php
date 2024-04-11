@@ -35,7 +35,7 @@
                 </div>
             
             </div>
-            <!-- end slimscroll-menu-->
+            <!--end slimscroll-menu-->
         <!-- </div>
     </div>
    
@@ -73,9 +73,6 @@
 
 <!-- Datatable init js -->
 <script src="../assets/js/pages/datatables.init.js"></script>
-
-
-
 
 <!-- App js -->
 <script src="../assets/js/app.js"></script>
