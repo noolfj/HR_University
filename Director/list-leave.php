@@ -44,7 +44,7 @@ require_once "header.php";
                                 <td>12.22.22</td>
                                 <td>12.33.22</td>
                                 <td style="white-space: pre-line;">ТЕКСТ ТЕКСТ ТЕКСТ ТЕКС тЕКСТ ТЕКСТТЕКСТ ТЕКСТ ТЕКСТ ТЕКС тЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ ТЕКС тЕКСТ ТЕКСТ</td>
-                                <td style="color: green;">Принять</td>
+                                <td style="color: green;">Утвержден</td>
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
@@ -62,7 +62,7 @@ require_once "header.php";
                                 <td>12.22.23</td>
                                 <td>12.33.22</td>
                                 <td style="white-space: pre-line;">ТЕКСТ ТЕКСТ ТЕКСТ ТЕКС тЕКСТ ТЕКСТТЕКСТ ТЕКСТ ТЕКСТ ТЕКС тЕКСТ ТЕКСТ</td>
-                                <td style="color: green;">Принять</td>
+                                <td style="color: green;">Утвержден</td>
                             </tr>
                         </tbody>
                     </table>

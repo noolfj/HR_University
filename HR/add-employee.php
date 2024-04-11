@@ -3,154 +3,138 @@ require_once "header.php";
 ?>
 <!-- Left Sidebar End -->
 
-        <!-- ============================================================== -->
-        <!-- Start right Content here -->
-        <!-- ============================================================== -->
-        <div class="main-content">
+<!-- ============================================================== -->
+<!-- Start right Content here -->
+<!-- ============================================================== -->
+<div class="main-content">
 
-            <div class="page-content">
+    <div class="page-content">
 
-                <!-- start page title -->
-                <div class="row">
-                    <div class="col-12">
-                        <div class="page-title-box d-flex align-items-center justify-content-between">
-                            <h4 class="page-title mb-0 font-size-18">Сотрудники</h4>
+        <!-- start page title -->
+        <div class="row">
+            <div class="col-12">
+                <div class="page-title-box d-flex align-items-center justify-content-between">
+                    <h4 class="page-title mb-0 font-size-18">Сотрудники</h4>
 
-                            <div class="page-title-right">
-                                <ol class="breadcrumb m-0">
-                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Страницы</a></li>
-                                    <li class="breadcrumb-item active">Добавить сотрудника>
-                                </ol>
+                    <div class="page-title-right">
+                        <ol class="breadcrumb m-0">
+                            <li class="breadcrumb-item"><a href="javascript: void(0);">Страницы</a></li>
+                            <li class="breadcrumb-item active">Добавить сотрудника>
+                        </ol>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- end page title -->
+
+        <!-- end row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Добавить сотрудника</h3>
+                        <form class="custom-validation" action="#">
+                            <div class="mb-3">
+                                <label class="form-label">ФИО</label>
+                                <input type="text" class="form-control" required placeholder="Введите ФИО" />
                             </div>
 
-                        </div>
+                            <div class="mb-3">
+                                <label class="form-label">Дата рождения</label>
+                                <input type="date" class="form-control" required />
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Место рождения</label>
+                                <input type="text" class="form-control" required placeholder="Введите место рождения" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Должность</label>
+                                <select class="form-select" required>
+                                    <option disabled selected>Выберите должность</option>
+                                    <option value="">Преподователь</option>
+                                    <option value="">Старший Преподователь</option>
+                                    <option value="">Ассистент</option>
+                                    <option value="">Бухгалтер</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Степень</label>
+                                <select class="form-select" required>
+                                    <option disabled selected>Выберите степень</option>
+                                    <option value="">Кандидат наук</option>
+                                    <option value="">Доцент</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Факультет</label>
+                                <select class="form-select" required>
+                                    <option disabled selected>Выберите факультет</option>
+                                    <option value="">Информатика и энергетика</option>
+                                    <option value="">Строительство и транспорт</option>
+
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Кафедры</label>
+                                <select class="form-select" required>
+                                    <option disabled selected>Выберите кафедру</option>
+                                    <option value="">Программирование и ИС</option>
+                                    <option value="">Физикии и химии</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Роль пользователя</label>
+                                <select class="form-select" required>
+                                    <option disabled selected>Выберите роль пользователя</option>
+                                    <option value="director">Директор</option>
+                                    <option value="HR">Начальник отдела кадров</option>
+                                    <option value="employee">Сотрудник</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" required placeholder="Введите email" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Номер телефона</label>
+                                <input type="tel" class="form-control" required placeholder="Введите номер телефона" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Табельный номер</label>
+                                <input type="text" class="form-control" required
+                                    placeholder="Введите табельный номер" />
+                            </div>
+
+                            <div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-success waves-effect waves-light">
+                                        Добавить
+                                    </button>
+                                    <button type="reset" class="btn btn-primary waves-effect waves-light">
+                                        Очистить
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+
                     </div>
                 </div>
-                <!-- end page title -->
+            </div>
+        </div>
 
-          
-                <div class="row">
-                    <div class="col-12">
-                        <div class="card">
-                            <div class="card-body">
+    </div>
+    <!-- End Page-content -->
 
-                                <h4 class="card-title">Textual inputs</h4>
-                                <p class="card-title-desc">Here are examples of <code>.form-control</code> applied
-                                    to each textual HTML5 <code>&lt;input&gt;</code> <code>type</code>.</p>
-
-                                    <form class="needs-validation" novalidate>
-                                    <div class="mb-3 row">
-                                    <label for="example-text-input" class="col-md-2 col-form-label">Text</label>
-                                    <div class="col-md-10">
-                                        <input class="form-control" type="text" value="Artisanal kale"
-                                            id="example-text-input">
-                                    </div>
-                                </div>
-                                <div class="mb-3 row">
-                                    <label for="example-search-input" class="col-md-2 col-form-label">Search</label>
-                                    <div class="col-md-10">
-                                        <input class="form-control" type="search" value="How do I shoot web"
-                                            id="example-search-input">
-                                    </div>
-                                </div>
-                                <div class="mb-3 row">
-                                    <label for="example-email-input" class="col-md-2 col-form-label">Email</label>
-                                    <div class="col-md-10">
-                                        <input class="form-control" type="email" value="bootstrap@example.com"
-                                            id="example-email-input">
-                                    </div>
-                                </div>
-                                <div class="mb-3 row">
-                                    <label for="example-url-input" class="col-md-2 col-form-label">URL</label>
-                                    <div class="col-md-10">
-                                        <input class="form-control" type="url" value="https://getbootstrap.com"
-                                            id="example-url-input">
-                                    </div>
-                                </div>
-                                <div class="mb-3 row">
-                                    <label for="example-tel-input" class="col-md-2 col-form-label">Telephone</label>
-                                    <div class="col-md-10">
-                                        <input class="form-control" type="tel" value="1-(555)-555-5555"
-                                            id="example-tel-input">
-                                    </div>
-                                </div>
-                                <div class="mb-3 row">
-                                    <label for="example-password-input" class="col-md-2 col-form-label">Password</label>
-                                    <div class="col-md-10">
-                                        <input class="form-control" type="password" value="hunter2"
-                                            id="example-password-input">
-                                    </div>
-                                </div>
-                                <div class="mb-3 row">
-                                    <label for="example-number-input" class="col-md-2 col-form-label">Number</label>
-                                    <div class="col-md-10">
-                                        <input class="form-control" type="number" value="42" id="example-number-input">
-                                    </div>
-                                </div>
-                                <div class="mb-3 row">
-                                    <label for="example-datetime-local-input" class="col-md-2 col-form-label">Date
-                                        and time</label>
-                                    <div class="col-md-10">
-                                        <input class="form-control" type="datetime-local" value="2019-08-19T13:45:00"
-                                            id="example-datetime-local-input">
-                                    </div>
-                                </div>
-                                <div class="mb-3 row">
-                                    <label for="example-date-input" class="col-md-2 col-form-label">Date</label>
-                                    <div class="col-md-10">
-                                        <input class="form-control" type="date" value="2019-08-19"
-                                            id="example-date-input">
-                                    </div>
-                                </div>
-                                <div class="mb-3 row">
-                                    <label for="example-month-input" class="col-md-2 col-form-label">Month</label>
-                                    <div class="col-md-10">
-                                        <input class="form-control" type="month" value="2019-08"
-                                            id="example-month-input">
-                                    </div>
-                                </div>
-                                <div class="mb-3 row">
-                                    <label for="example-week-input" class="col-md-2 col-form-label">Week</label>
-                                    <div class="col-md-10">
-                                        <input class="form-control" type="week" value="2019-W33"
-                                            id="example-week-input">
-                                    </div>
-                                </div>
-                                <div class="mb-3 row">
-                                    <label for="example-time-input" class="col-md-2 col-form-label">Time</label>
-                                    <div class="col-md-10">
-                                        <input class="form-control" type="time" value="13:45:00"
-                                            id="example-time-input">
-                                    </div>
-                                </div>
-                                <div class="mb-3 row">
-                                    <label for="example-color-input" class="col-md-2 col-form-label">Color</label>
-                                    <div class="col-md-10">
-                                        <input class="form-control form-control-color mw-100" type="color"
-                                            value="#3b5de7" id="example-color-input">
-                                    </div>
-                                </div>
-                                <div class="mb-3 row">
-                                    <label class="col-md-2 col-form-label">Select</label>
-                                    <div class="col-md-10">
-                                        <select class="form-select" aria-label="Default select example">
-                                            <option selected>Select</option>
-                                            <option>Large select</option>
-                                            <option>Small select</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="btn btn-primary" type="submit">Submit form</button>
-                        </div>
-                     
-                </form>
-                    <!-- end col -->
-                </div>
-                <!-- end row -->
-
-            <!-- End Page-content -->
-
-            <?php 
+    <?php 
 require_once "footer.php";
 ?>

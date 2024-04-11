@@ -141,7 +141,7 @@
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
                                 <li><a href="add-employee.php">Добавить сотрудника</a></li>
-                                <li><a href="edit-employee.html">Управлять сотрудниками</a></li>
+                                <li><a href="edit-employee.php">Управлять сотрудниками</a></li>
                             </ul>
                         </li>
 
@@ -152,8 +152,8 @@
                                 <span>Заявки</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="leave.html">Посмотреть заявки</a></li>
-                                <li><a href="edit-leave.html">Управлять заявками</a></li>
+                                <li><a href="leave.php">Посмотреть заявки</a></li>
+                                <li><a href="edit-leave.php">Управлять заявками</a></li>
                             </ul>
                         </li>
 
@@ -163,9 +163,9 @@
                                 <span>Вакансия</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="add-vacancies.html">Добавить вакансию</a></li>
-                                <li><a href="vacancies.html">Посмотреть вакансию</a></li>
-                                <li><a href="edit-vacancies.html">Редактировать вакансию</a></li>
+                                <li><a href="add-vacancies.php">Добавить вакансию</a></li>
+                                <li><a href="vacancies.php">Посмотреть вакансию</a></li>
+                                <li><a href="edit-vacancies.php">Редактировать вакансию</a></li>
                             </ul>
                         </li>
 
@@ -175,9 +175,9 @@
                                 <span>Обучение</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="ekzamen.html">Экзамен</a></li>
-                                <li><a href="anketirovanie.html">Анкетирование</a></li>
-                                <li><a href="attestaticy.html">Аттестация</a></li>
+                                <li><a href="ekzamen.php">Экзамен</a></li>
+                                <li><a href="anketirovanie.php">Анкетирование</a></li>
+                                <li><a href="attestaticy.php">Аттестация</a></li>
                             </ul>
                         </li>
 
@@ -187,18 +187,13 @@
                                 <span>План</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="add-plan.html">Создать план</a></li>
-                                <li><a href="edit-plan.html">Утвердить план</a></li>
-                                <li><a href="plan.html">Текущий план</a></li>
+                                <li><a href="add-plan.php">Создать план</a></li>
+                                <li><a href="edit-plan.php">Утвердить план</a></li>
+                                <li><a href="plan.php">Текущий план</a></li>
                             </ul>
                         </li>
 
-                        <li>
-                            <a href="login.html" class="waves-effect">
-                                <i class="bx bx-log-out"></i>
-                                <span>Выйти</span>
-                            </a>
-                        </li>
+                   
 
                 </div>
                 <!-- Sidebar -->

@@ -53,7 +53,7 @@ require_once "header.php";
                                     <td>12.22.22</td>
                                     <td>12.33.22</td>
                                     <td>ТЕКТ ТЕКСТ ТЕКСТ ТЕКТ ТЕКСТ ТЕКСТ< ТЕКТ ТЕКСТ ТЕКСТ ТЕКТ ТЕКСТ ТЕКСТ</td>
-                                    <td style="color: green;">Принять</td>
+                                    <td style="color: green;">Утвержден</td>
                                     <td class="text-center">
                                         <a href="#" id="bin" class="btn-sm btn-primary">
                                             <span class="fs-3"><i class="bx bx-trash"></i></span>
