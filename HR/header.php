@@ -4,12 +4,23 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Starter | Qovex - Admin & Dashboard Template</title>
+    <title>Главная страница</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="../assets/images/favicon.ico">
+
+
+    <!-- DataTables -->
+    <link href="../assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet"
+        type="text/css" />
+
+    <!-- Responsive datatable examples -->
+    <link href="../assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet"
+        type="text/css" />
+
 
     <!-- Bootstrap Css -->
     <link href="../assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
@@ -18,13 +29,10 @@
     <!-- App Css-->
     <link href="../assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
 
-
-
-    <link rel="shortcut icon" href="../assets/images/favicon.ico">
-
 </head>
 
 <body data-layout="detached" data-topbar="colored">
+
 
 
     <div class="container-fluid">
@@ -48,81 +56,73 @@
                                     id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
                                     <img class="rounded-circle header-profile-user"
-                                        src="../assets/images/users/avatar-2.jpg" alt="Header Avatar">
-                                    <span class="d-none d-xl-inline-block ms-1">Patrick</span>
+                                        src="../assets/images/users/avatar-5.jpg" alt="Header Avatar">
+                                    <span class="d-none d-xl-inline-block ms-1">Рухшона</span>
                                     <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
                                 </button>
                                 <div class="dropdown-menu dropdown-menu-end">
-                                    <!-- item-->
-                                    <a class="dropdown-item" href="profile.php"><i
-                                            class="bx bx-user font-size-16 align-middle me-1"></i>
-                                        Профиль</a>
-                                    <a class="dropdown-item d-block" href="setting.html"><span
-                                            class="badge bg-success float-end"></span><i
-                                            class="bx bx-wrench font-size-16 align-middle me-1"></i> Настройка</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item text-danger" href="login.html"><i
+  
+                                    <a class="dropdown-item text-danger" href="login.php"><i
                                             class="bx bx-power-off font-size-16 align-middle me-1 text-danger"></i>
                                         Выйти</a>
                                 </div>
                             </div>
-
-
                         </div>
+
                         <!-- LOGO -->
-                        <div class="navbar-brand-box">
-                            <a href="index.html" class="logo logo-dark" style="margin-left: 65px;">
-                                <span class="logo-sm">
-                                    <img src="../assets/images/logo-sm.png" alt="" height="58"
-                                        style="border-radius: 10%;">
-                                </span>
-                                <span class="logo-lg">
-                                    <img src="../assets/images/logo-dark.png" alt="" height="55"
-                                        style="border-radius: 10%;">>
-                                </span>
-                            </a>
+                        <div>
 
+                            <div class="navbar-brand-box">
+                                <a href="index.php" class="logo logo-dark">
+                                    <span class="logo-sm">
+                                        <img src="../assets/images/logo-sm.png" alt="" height="20">
+                                    </span>
+                                    <span class="logo-lg">
+                                        <img src="../assets/images/logo-dark.png" alt="" height="17">
+                                    </span>
+                                </a>
 
-                            <a href="index.html" class="logo logo-light" style="margin-left: 65px;">
-                                <span class="logo-sm">
-                                    <img src="../assets/images/LogoEX.png" alt="" height="60"
-                                        style="border-radius: 50%;">
-                                </span>
-                                <span class="logo-lg">
-                                    <img src="../assets/images/LogoEX.png" alt="" height="57"
-                                        style="border-radius: 10%;">
-                                </span>
-                            </a>
+                                <a href="index.php" class="logo logo-light" style="margin-left: 65px;">
+                                    <span class="logo-sm">
+                                        <img src="../assets/images/LogoEX.png" alt="" height="20"
+                                            style="border-radius: 50%;">
+                                    </span>
+                                    <span class="logo-lg">
+                                        <img src="../assets/images/LogoEX.png" alt="" height="57"
+                                            style="border-radius: 10%;">
+                                    </span>
+                                </a>
+
+                            </div>
+
+                            <button type="button"
+                                class="btn btn-sm px-3 font-size-16 header-item toggle-btn waves-effect"
+                                id="vertical-menu-btn">
+                                <i class="fa fa-fw fa-bars"></i>
+                            </button>
+                        </div>
+                    </div>
+            </header> <!-- ========== Left Sidebar Start ========== -->
+            <div class="vertical-menu">
+
+                <div class="h-100">
+
+                    <div class="user-wid text-center py-4">
+                        <div class="user-img">
+                            <img src="../assets/images/users/avatar-5.jpg" alt=""
+                                class="avatar-md mx-auto rounded-circle">
+                        </div>
+
+                        <div class="mt-3">
+
+                            <a href="#" class="text-reset fw-medium font-size-16">Салимова Рухшона</a>
+                            <p class="text-muted mt-1 mb-0 font-size-13">Начальник отдела кадров</p>
 
                         </div>
                     </div>
 
-                    <button type="button" class="btn btn-sm px-3 font-size-16 header-item toggle-btn waves-effect"
-                        id="vertical-menu-btn">
-                        <i class="fa fa-fw fa-bars"></i>
-                    </button>
-                </div>
-        </div>
-        </header> <!-- ========== Left Sidebar Start ========== -->
-        <div class="vertical-menu">
-
-            <div class="h-100">
-
-                <div class="user-wid text-center py-4">
-                    <div class="user-img">
-                        <img src="../assets/images/users/avatar-2.jpg" alt="" class="avatar-md mx-auto rounded-circle">
-                    </div>
-
-                    <div class="mt-3">
-
-                        <a href="#" class="text-reset fw-medium font-size-16">Patrick Becker</a>
-                        <p class="text-muted mt-1 mb-0 font-size-13">Админ</p>
-
-                    </div>
-                </div>
-
-                <!--- Sidemenu -->
-                <div id="sidebar-menu">
+                 <!--- Sidemenu -->
+                 <div id="sidebar-menu">
                     <!-- Left Menu Start -->
                     <ul class="metismenu list-unstyled" id="side-menu">
                         <li class="menu-title">Меню</li>
@@ -202,6 +202,5 @@
 
                 </div>
                 <!-- Sidebar -->
+                </div>
             </div>
-        </div>
-        </div>

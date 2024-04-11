@@ -160,9 +160,11 @@
                                 <ul class="sub-menu" aria-expanded="false">
                                     <li><a href="select-plan.php">Выбрать план</a></li>
                                     <li><a href="list-plan.php">Посмотреть утвержденный план</a></li>
+                                    <li><a href="zadacha-plan.php">Отправить выполненные задачи</a></li>
                                 </ul>
                             </li>
 
+                      
 
                             <li>
                                 <a href="profile.php" class="waves-effect">
