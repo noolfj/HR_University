@@ -153,7 +153,7 @@
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
                                 <li><a href="leave.php">Посмотреть заявки</a></li>
-                                <li><a href="edit-leave.php">Управлять заявками</a></li>
+                                <li><a href="list-leave.php">Список заявок</a></li>
                             </ul>
                         </li>
 
@@ -188,7 +188,7 @@
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
                                 <li><a href="add-plan.php">Создать план</a></li>
-                                <li><a href="edit-plan.php">Утвердить план</a></li>
+                                <li><a href="approve-plan.php">Утвердить план</a></li>
                                 <li><a href="plan.php">Текущий план</a></li>
                             </ul>
                         </li>
