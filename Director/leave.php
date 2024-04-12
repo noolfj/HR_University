@@ -149,6 +149,8 @@ require_once "header.php";
                                         </td>
 
                                     </tr>
+                                   
+
                                     <div class="modal fade" id="myModal1" tabindex="-1"
                                             aria-labelledby="exampleModalLabel1" aria-hidden="true">
                                             <div class="modal-dialog">
@@ -164,7 +166,7 @@ require_once "header.php";
                                                         кнопки.
                                                     </div>
                                                     <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary"
+                                                        <button type="button" class="btn btn-outline-primary waves-effect waves-light"
                                                             data-bs-dismiss="modal">Закрыть</button>
                                                     </div>
                                                 </div>
@@ -186,7 +188,7 @@ require_once "header.php";
                                                         кнопки.
                                                     </div>
                                                     <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary"
+                                                    <button type="button" class="btn btn-outline-primary waves-effect waves-light"
                                                             data-bs-dismiss="modal">Закрыть</button>
                                                     </div>
                                                 </div>
@@ -208,7 +210,7 @@ require_once "header.php";
                                                         кнопки.
                                                     </div>
                                                     <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary"
+                                                    <button type="button" class="btn btn-outline-primary waves-effect waves-light"
                                                             data-bs-dismiss="modal">Закрыть</button>
                                                     </div>
                                                 </div>
@@ -230,7 +232,7 @@ require_once "header.php";
                                                         кнопки.
                                                     </div>
                                                     <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary"
+                                                    <button type="button" class="btn btn-outline-primary waves-effect waves-light"
                                                             data-bs-dismiss="modal">Закрыть</button>
                                                     </div>
                                                 </div>
@@ -252,7 +254,7 @@ require_once "header.php";
                                                         кнопки.
                                                     </div>
                                                     <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary"
+                                                    <button type="button" class="btn btn-outline-primary waves-effect waves-light"
                                                             data-bs-dismiss="modal">Закрыть</button>
                                                     </div>
                                                 </div>
