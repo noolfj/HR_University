@@ -32,6 +32,8 @@ require_once "header.php";
             <div class="card-body">
                 <form class="repeater" enctype="multipart/form-data">
                     <div data-repeater-list="group-a">
+
+                    
                         <div data-repeater-item class="row">
                             <div class="mb-3 col-lg-2">
                                 <p class="form-label">1:  Аъзои гурӯхи кории Шӯрои олимони донишгоҳ</p>
@@ -84,6 +86,8 @@ require_once "header.php";
                                 <input type="file" class="form-control-file" id="file" name="file">
                             </div>
 
+
+                            
                             <div class="mb-3 col-lg-2">
                                 <label class="form-label" for="status">Статус</label>
                          
